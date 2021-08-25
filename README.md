@@ -46,3 +46,32 @@ If  $x^2 + y ^2 <=  1$ then the point is in the circle
 
 The ratio of points in the circle multiplied by 4  $\approx \pi$ 
 
+# Acknowledgments:
+
+
+Thanks to the developers of these integral, open source libraries:
+
+
+
+[library(ggplot2)](https://github.com/tidyverse/ggplot2)
+
+
+[require(devtools) ](https://github.com/r-lib/devtools)
+
+
+[library(tidyverse) ](https://github.com/tidyverse/tidyverse)
+
+
+[library(dplyr)](https://github.com/tidyverse/dplyr)
+
+
+[library(shinythemes)](https://github.com/rstudio/shinythemes)
+
+[library(shiny)](https://github.com/rstudio/shiny)
+
+
+# Attribution:
+
+This application was built and is maintained by [Julia Claire Lee](https://github.com/JuliaClaireLee). No need to provide credit when using any of this work (but very much appreciated!)
+
+
