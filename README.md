@@ -7,13 +7,13 @@ This app shows the many different ways we can estimate $\pi$ by using Statistica
 
 ## Sampling from Uniform
 
-We know that the probability of any two integers being coprime is $6/\pi^2$ 
+We know that the probability of any two integers being coprime is 6/(pi)^2 
 So we sample a pair of numbers from uniform distribution(we round the numbers in the pair to be an integer). So we have created a pseudo-random integer pairs.  
 
 The see how many of those pairs of numbers had a GCD = 1. We then take that number and divided by total the number of  observations (pairs), N. 
 
-We then solve for pi by setting that result equal to  $6/\pi^2 = N$
-So  $\pi = (6/N)^{0.5}$
+We then solve for pi by setting that result equal to  6/(pi)^2 = N
+So pi = (6/N)^(0.5)
 
 ## Normal Distribution
 
@@ -23,7 +23,7 @@ We can approximate pi by taking many samples  a Normal Distribution N(0, pi) and
 
 We know that this integral equals pi:
 
-$$\int^0_1 -6 * (\pi/7)(x^2 - 3x) dx$$
+$$\int^0_1 -6 * (pi/7)(x^2 - 3x) dx$$
 
 
 So we will use Monte carlo integration to approximate this integral.
@@ -39,10 +39,10 @@ Then we divide by the length of the interval
 ## Circle
 
 The ratio of an area circle and a square  is: 
-$$\frac{\pi r^2}{4 r^2} = \frac{\pi}{4 }$$
+$$\frac{pi r^2}{4 r^2} = {pi}/{4}$$
 
-We randomly sample x and y from uniform $(-1,1)$
-If  $x^2 + y ^2 <=  1$ then the point is in the circle
+We randomly sample x and y from uniform (-1,1)
+If  x^2 + y ^2 <=  1 then the point is in the circle
 
 The ratio of points in the circle multiplied by 4  $\approx \pi$ 
 
